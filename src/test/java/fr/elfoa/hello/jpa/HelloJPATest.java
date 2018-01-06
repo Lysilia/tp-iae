@@ -40,7 +40,6 @@ public class HelloJPATest {
     @Test
     public void test(){
 
-
         A a = new A("A1","A1");
 
         tx.begin();
@@ -70,7 +69,6 @@ public class HelloJPATest {
     @Test
     public void test3(){
 
-
         A a = em.find(A.class,1000);
 
         Assert.assertEquals(1000,a.getId().intValue());
@@ -91,7 +89,6 @@ public class HelloJPATest {
 
     @Test
     public void test4(){
-
 
         A a = em.find(A.class,1001);
 
@@ -121,7 +118,6 @@ public class HelloJPATest {
     @Test
     public void test5(){
 
-
         B b = em.find(B.class,1000);
 
         Assert.assertEquals(1000,b.getId().intValue());
@@ -129,7 +125,6 @@ public class HelloJPATest {
         Assert.assertEquals("B2-1000",b.getB_2());
 
         Assert.assertEquals("B2-1000",b.getB_2());
-
 
     }
 
