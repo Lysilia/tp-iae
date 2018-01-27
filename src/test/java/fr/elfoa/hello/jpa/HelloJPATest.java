@@ -126,7 +126,7 @@ public class HelloJPATest {
         Assert.assertEquals("B2-1000",b.getB_2());
     }
 
-    // test de la mise en bdd de a, assert : update de l'id
+    // test de la suppression d'un element ds la bdd
     @Test
     public void test_remove(){
         A deleteA = em.find(A.class,1002);

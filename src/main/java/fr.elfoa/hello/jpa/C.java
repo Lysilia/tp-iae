@@ -10,7 +10,7 @@ import java.util.Objects;
  * @author Pierre Colomb
  */
 @Entity
-@Table(name="Plop")
+@Table(name="C")
 public class C {
 
     @Id
