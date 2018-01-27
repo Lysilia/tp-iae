@@ -13,7 +13,7 @@ public class A {
 
     @Id
     @GeneratedValue
-    private Integer id;
+    private Integer id; // clé primaire
 
     private String a_1;
 

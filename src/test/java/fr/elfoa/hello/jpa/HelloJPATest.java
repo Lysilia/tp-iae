@@ -37,6 +37,8 @@ public class HelloJPATest {
        }
     }
 
+
+    // test de la mise en bdd de a, assert : update de l'id
     @Test
     public void test(){
 
@@ -50,6 +52,7 @@ public class HelloJPATest {
 
     }
 
+    // test de la mise en bdd de b et c, assert : update de l'id
     @Test
     public void test2(){
 
@@ -65,7 +68,8 @@ public class HelloJPATest {
 
     }
 
-
+    // test de la recuperation de a, dont la cle primaire est = 1000
+    // test de l'update de a dans la base
     @Test
     public void test3(){
 
@@ -74,7 +78,6 @@ public class HelloJPATest {
         Assert.assertEquals(1000,a.getId().intValue());
         Assert.assertEquals("A1-1000",a.getA_1());
         Assert.assertEquals("A2-1000",a.getA_2());
-
 
         tx.begin();
         a.setA_2("BUMP");
@@ -85,11 +88,9 @@ public class HelloJPATest {
         Assert.assertEquals("BUMP",a.getA_2());
     }
 
-
-
+    // test de détachement logique puis de merge
     @Test
     public void test4(){
-
         A a = em.find(A.class,1001);
 
         em.detach(a);
@@ -103,7 +104,6 @@ public class HelloJPATest {
         Assert.assertEquals("A1-1001",freshA.getA_1());
         Assert.assertEquals("A2-1001",freshA.getA_2());
 
-
         tx.begin();
         em.merge(a);
         tx.commit();
@@ -114,10 +114,9 @@ public class HelloJPATest {
         Assert.assertEquals("BAR",a.getA_2());
     }
 
-
+    // test de la mise en bdd de b, assert : update de l'id
     @Test
     public void test5(){
-
         B b = em.find(B.class,1000);
 
         Assert.assertEquals(1000,b.getId().intValue());
@@ -125,7 +124,23 @@ public class HelloJPATest {
         Assert.assertEquals("B2-1000",b.getB_2());
 
         Assert.assertEquals("B2-1000",b.getB_2());
-
     }
 
+    // test de la mise en bdd de a, assert : update de l'id
+    @Test
+    public void test_remove(){
+        A deleteA = em.find(A.class,1002);
+
+        Assert.assertEquals(1002,deleteA.getId().intValue());
+        Assert.assertEquals("toto",deleteA.getA_1());
+        Assert.assertEquals("bouh",deleteA.getA_2());
+
+        tx.begin();
+        em.remove(deleteA);
+        tx.commit();
+
+        A aDeleted = em.find(A.class,1002);
+
+        Assert.assertNull(aDeleted);
+    }
 }
