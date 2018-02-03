@@ -3,11 +3,13 @@ package fr.elfoa.hello.jpa.crm;
 
 import javax.persistence.*;
 
-@Embeddable
+@Entity @IdClass(Client_Adresse.class)
 public class Client_Adresse {
 
+    @Id
     private Integer Client_ID;
 
+    @Id
     private Integer adresses_ID;
 
     public Client_Adresse() {

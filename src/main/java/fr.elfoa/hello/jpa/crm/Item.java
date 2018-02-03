@@ -20,10 +20,10 @@ public class Item {
     private Integer weight;
     private String label;
 
-    public Item(Integer size, Integer weight, String label) {
+    public Item(String label, Integer size, Integer weight) {
+        this.label = label;
         this.size = size;
         this.weight = weight;
-        this.label = label;
     }
 
     public Item(){}
@@ -31,7 +31,9 @@ public class Item {
         return size;
     }
 
-
+    public String getLabel(){
+        return label;
+    }
 
     public Integer getWeight() {
         return weight;

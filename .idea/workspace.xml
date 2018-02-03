@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a91acd0-b0fc-4d11-8ff4-ad75060ef68b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Adresse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Client_Adresse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Command_Item.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Commande.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Item.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/fr/elfoa/hello/jpa/crm/CrmJPATest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/create.ddl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/drop.ddl" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iae.iml" afterPath="$PROJECT_DIR$/iae.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/C.java" afterPath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/C.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/crm.sql" afterPath="$PROJECT_DIR$/src/main/resources/crm.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hello.sql" afterPath="$PROJECT_DIR$/src/main/resources/hello.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/fr/elfoa/hello/jpa/HelloJPATest.java" afterPath="$PROJECT_DIR$/src/test/java/fr/elfoa/hello/jpa/HelloJPATest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/crm.sql" afterPath="$PROJECT_DIR$/target/classes/crm.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hello.sql" afterPath="$PROJECT_DIR$/target/classes/hello.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/B_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/B_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/C_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/C_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create.ddl" afterPath="$PROJECT_DIR$/create.ddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drop.ddl" afterPath="$PROJECT_DIR$/drop.ddl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Client_Adresse.java" afterPath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Client_Adresse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Command_Item.java" afterPath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Command_Item.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Commande.java" afterPath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Commande.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Item.java" afterPath="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Item.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/fr/elfoa/hello/jpa/crm/CrmJPATest.java" afterPath="$PROJECT_DIR$/src/test/java/fr/elfoa/hello/jpa/crm/CrmJPATest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/crm/Client_Adresse_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/crm/Client_Adresse_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/crm/CommandItemId_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/crm/CommandItemId_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/crm/Command_Item_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/crm/Command_Item_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/crm/Commande_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/crm/Commande_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/crm/Item_.java" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/crm/Item_.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,50 +24,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tp_iae_TP2$CrmJPATest.coverage" NAME="CrmJPATest Coverage Results" MODIFIED="1517676253395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>fr.elfoa.hello.jpa.crm.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.79833835">
+    <splitter split-orientation="horizontal" split-proportion="0.67522657">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Client_Adresse.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Client_Adresse.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PersistenceProvider.class" pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/org.eclipse.persistence.jpa/2.6.2/org.eclipse.persistence.jpa-2.6.2.jar!/org/eclipse/persistence/jpa/PersistenceProvider.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="107">
-                  <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Commande.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Commande.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="26" column="71" lean-forward="true" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
-                  <folding>
-                    <marker date="1517080633869" expanded="false" signature="852:863" ph=" { " />
-                    <marker date="1517080633869" expanded="false" signature="892:898" ph=" }" />
-                    <marker date="1517080633869" expanded="false" signature="933:944" ph=" { " />
-                    <marker date="1517080633869" expanded="false" signature="961:967" ph=" }" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Item.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
+                <state relative-caret-position="112">
+                  <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -83,23 +46,50 @@
           <file leaf-file-name="Command_Item.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Command_Item.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+                <state relative-caret-position="-148">
+                  <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
                   <folding>
-                    <marker date="1517080542259" expanded="false" signature="693:704" ph=" { " />
-                    <marker date="1517080542259" expanded="false" signature="728:734" ph=" }" />
-                    <marker date="1517080542259" expanded="false" signature="768:779" ph=" { " />
-                    <marker date="1517080542259" expanded="false" signature="795:801" ph=" }" />
+                    <element signature="e#607#608#0" expanded="true" />
+                    <element signature="e#659#660#0" expanded="true" />
+                    <element signature="e#985#986#0" expanded="true" />
+                    <element signature="e#1036#1037#0" expanded="true" />
+                    <element signature="e#1354#1355#0" expanded="true" />
+                    <element signature="e#1392#1393#0" expanded="true" />
+                    <element signature="e#1427#1428#0" expanded="true" />
+                    <element signature="e#1463#1464#0" expanded="true" />
+                    <element signature="e#1516#1517#0" expanded="true" />
+                    <element signature="e#1560#1561#0" expanded="true" />
+                    <element signature="e#1609#1610#0" expanded="true" />
+                    <element signature="e#1649#1650#0" expanded="true" />
+                    <marker date="1517674968579" expanded="true" signature="711:722" ph=" { " />
+                    <marker date="1517674968579" expanded="true" signature="762:768" ph=" }" />
+                    <marker date="1517674968579" expanded="false" signature="885:896" ph=" { " />
+                    <marker date="1517674968579" expanded="false" signature="931:937" ph=" }" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CrmJPATest.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Commande.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Commande.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="196">
+                  <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="45" />
+                  <folding>
+                    <marker date="1517671963188" expanded="false" signature="899:910" ph=" { " />
+                    <marker date="1517671963188" expanded="false" signature="939:945" ph=" }" />
+                    <marker date="1517671963188" expanded="false" signature="980:991" ph=" { " />
+                    <marker date="1517671963188" expanded="false" signature="1008:1014" ph=" }" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CrmJPATest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/fr/elfoa/hello/jpa/crm/CrmJPATest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="458">
-                  <caret line="116" column="74" lean-forward="false" selection-start-line="116" selection-start-column="74" selection-end-line="116" selection-end-column="74" />
+                <state relative-caret-position="1386">
+                  <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -107,12 +97,27 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="HelloJPATest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/fr/elfoa/hello/jpa/HelloJPATest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-70">
+                  <caret line="75" column="11" lean-forward="false" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="Adresse.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Adresse.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
-                  <folding />
+                <state relative-caret-position="98">
+                  <caret line="21" column="72" lean-forward="true" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+                  <folding>
+                    <element signature="e#813#814#0" expanded="true" />
+                    <element signature="e#843#844#0" expanded="true" />
+                    <element signature="e#1349#1350#0" expanded="true" />
+                    <element signature="e#1377#1378#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -120,30 +125,9 @@
           <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Client.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#584#585#0" expanded="true" />
-                    <element signature="e#611#612#0" expanded="true" />
-                    <element signature="e#651#652#0" expanded="true" />
-                    <element signature="e#683#684#0" expanded="true" />
-                    <element signature="e#713#714#0" expanded="true" />
-                    <element signature="e#739#740#0" expanded="true" />
-                    <element signature="e#777#778#0" expanded="true" />
-                    <element signature="e#807#808#0" expanded="true" />
-                    <element signature="e#840#841#0" expanded="true" />
-                    <element signature="e#869#870#0" expanded="true" />
-                    <element signature="e#913#914#0" expanded="true" />
-                    <element signature="e#949#950#0" expanded="true" />
-                    <element signature="e#985#986#0" expanded="true" />
-                    <element signature="e#1017#1018#0" expanded="true" />
-                    <element signature="e#1067#1068#0" expanded="true" />
-                    <element signature="e#1109#1110#0" expanded="true" />
-                    <element signature="e#1140#1141#0" expanded="true" />
-                    <element signature="e#1165#1166#0" expanded="true" />
-                    <element signature="e#1202#1203#0" expanded="true" />
-                    <element signature="e#1230#1231#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="420">
+                  <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -155,8 +139,8 @@
           <file leaf-file-name="crm.sql" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/resources/crm.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="49">
-                  <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+                <state relative-caret-position="181">
+                  <caret line="43" column="117" lean-forward="false" selection-start-line="43" selection-start-column="107" selection-end-line="43" selection-end-column="117" />
                   <folding />
                 </state>
               </provider>
@@ -221,16 +205,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/hello.sql" />
         <option value="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/C.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Commande_Item.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/crm.sql" />
         <option value="$PROJECT_DIR$/target/generated-sources/annotations/fr/elfoa/hello/jpa/crm/Client_Adresse_.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Adresse.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Commande.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Client_Adresse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/crm.sql" />
         <option value="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Command_Item.java" />
         <option value="$PROJECT_DIR$/src/test/java/fr/elfoa/hello/jpa/crm/CrmJPATest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Commande.java" />
       </list>
     </option>
   </component>
@@ -272,8 +256,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,14 +332,6 @@
               <item name="tp-iae_TP2" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-iae_TP2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp-iae_TP2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-iae_TP2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -408,7 +384,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -590,112 +566,93 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CrmJPATest - 2018.01.27 at 18h 39m 23s.xml">
+    <history-entry file="CrmJPATest - 2018.02.03 at 17h 28m 05s.xml">
       <configuration name="CrmJPATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmJPATest - 2018.01.27 at 18h 57m 40s.xml">
+    <history-entry file="CrmJPATest - 2018.02.03 at 17h 28m 35s.xml">
       <configuration name="CrmJPATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmJPATest - 2018.01.27 at 18h 59m 50s.xml">
+    <history-entry file="CrmJPATest - 2018.02.03 at 17h 38m 38s.xml">
       <configuration name="CrmJPATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmJPATest - 2018.01.27 at 19h 52m 23s.xml">
+    <history-entry file="CrmJPATest - 2018.02.03 at 17h 39m 49s.xml">
       <configuration name="CrmJPATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmJPATest - 2018.01.27 at 19h 57m 46s.xml">
+    <history-entry file="CrmJPATest - 2018.02.03 at 17h 40m 24s.xml">
       <configuration name="CrmJPATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmJPATest - 2018.01.27 at 19h 58m 31s.xml">
+    <history-entry file="CrmJPATest - 2018.02.03 at 17h 44m 18s.xml">
       <configuration name="CrmJPATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmJPATest - 2018.01.27 at 20h 01m 57s.xml">
+    <history-entry file="CrmJPATest - 2018.02.03 at 17h 44m 20s.xml">
       <configuration name="CrmJPATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmJPATest - 2018.01.27 at 20h 04m 05s.xml">
+    <history-entry file="CrmJPATest - 2018.02.03 at 17h 46m 03s.xml">
       <configuration name="CrmJPATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmJPATest - 2018.01.27 at 20h 16m 18s.xml">
+    <history-entry file="CrmJPATest - 2018.02.03 at 17h 46m 36s.xml">
       <configuration name="CrmJPATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrmJPATest - 2018.01.27 at 20h 17m 26s.xml">
+    <history-entry file="CrmJPATest - 2018.02.03 at 17h 47m 13s.xml">
       <configuration name="CrmJPATest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="26" width="1368" height="743" extended-state="6" />
+    <frame x="683" y="26" width="1368" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4198718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45131376" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38942307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2596154" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23942599" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.061933536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39876354" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39876354" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6306028" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25965998" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20790629" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39876354" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38942307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6306028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25965998" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20790629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2596154" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25302115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -838,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,15 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,25 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fr/elfoa/hello/jpa/HelloJPATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/crm.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,104 +847,127 @@
         <state relative-caret-position="210">
           <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="370">
+          <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Adresse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="98">
+          <caret line="21" column="72" lean-forward="true" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
           <folding>
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/org.eclipse.persistence.jpa/2.6.2/org.eclipse.persistence.jpa-2.6.2.jar!/org/eclipse/persistence/jpa/PersistenceProvider.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
+        <state relative-caret-position="527">
           <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Client_Adresse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="112">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Command_Item.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-          <folding>
-            <marker date="1517080542259" expanded="false" signature="693:704" ph=" { " />
-            <marker date="1517080542259" expanded="false" signature="728:734" ph=" }" />
-            <marker date="1517080542259" expanded="false" signature="768:779" ph=" { " />
-            <marker date="1517080542259" expanded="false" signature="795:801" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fr/elfoa/hello/jpa/crm/CrmJPATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="116" column="74" lean-forward="false" selection-start-line="116" selection-start-column="74" selection-end-line="116" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Commande.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="71" lean-forward="true" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+        <state relative-caret-position="196">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="45" />
           <folding>
-            <marker date="1517080633869" expanded="false" signature="852:863" ph=" { " />
-            <marker date="1517080633869" expanded="false" signature="892:898" ph=" }" />
-            <marker date="1517080633869" expanded="false" signature="933:944" ph=" { " />
-            <marker date="1517080633869" expanded="false" signature="961:967" ph=" }" />
+            <marker date="1517671963188" expanded="false" signature="899:910" ph=" { " />
+            <marker date="1517671963188" expanded="false" signature="939:945" ph=" }" />
+            <marker date="1517671963188" expanded="false" signature="980:991" ph=" { " />
+            <marker date="1517671963188" expanded="false" signature="1008:1014" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr.elfoa/hello/jpa/crm/Command_Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <marker date="1517674968579" expanded="true" signature="711:722" ph=" { " />
+            <marker date="1517674968579" expanded="true" signature="762:768" ph=" }" />
+            <marker date="1517674968579" expanded="false" signature="885:896" ph=" { " />
+            <marker date="1517674968579" expanded="false" signature="931:937" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/crm.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="43" column="117" lean-forward="false" selection-start-line="43" selection-start-column="107" selection-end-line="43" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fr/elfoa/hello/jpa/HelloJPATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="75" column="11" lean-forward="false" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fr/elfoa/hello/jpa/crm/CrmJPATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

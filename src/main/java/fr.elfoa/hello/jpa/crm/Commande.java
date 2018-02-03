@@ -13,11 +13,8 @@ public class Commande {
     private Integer id;
     private Date date;
 
+    @ManyToOne(cascade = CascadeType.PERSIST)
     private Client_Adresse clientAdresse;
-   /* @ManyToOne(targetEntity = Adresse.class)
-    private  Integer adresse_id;
-    @ManyToOne(targetEntity = Client.class)
-    private Integer client_id;*/
 
     public Commande() {
     }
@@ -34,22 +31,6 @@ public class Commande {
     public void setDate(Date date) {
         this.date = date;
     }
-
- /*   public Integer getAdresse_id() {
-        return adresse_id;
-    }
-
-    public void setAdresse_id(Integer adresse_id) {
-        this.adresse_id = adresse_id;
-    }
-
-    public Integer getClient_id() {
-        return client_id;
-    }
-
-    public void setClient_id(Integer client_id) {
-        this.client_id = client_id;
-    }*/
 
     public Integer getId() {
         return id;
