@@ -31,7 +31,8 @@ public class Adresse {
                           @PathParam("num")int num, @PathParam("pays") String pays,
                           @PathParam("voie") String voie,
                           @PathParam("voietype") String voietype){
-        final boolean add = adresses.add(new Adresse(cp, num, pays, voie, voietype));
+        System.out.println("------------------ ADD -------------------");
+        adresses.add(new Adresse(cp, num, pays ,voie, voietype));
     }
 
     @GET
@@ -45,24 +46,22 @@ public class Adresse {
     public String getCp(@PathParam("id") int id ) {
         return adresses.get(id).cp;
     }
-
     @GET
     @Path("pays/{id}")
     public String getPays(@PathParam("id") int id ) {
         return adresses.get(id).pays;
     }
-
     @GET
     @Path("voie/{id}")
     public String getVoie(@PathParam("id") int id ) {
         return adresses.get(id).voie;
     }
-
     @GET
     @Path("voietype/{id}")
     public String getVoieType(@PathParam("id") int id ) {
         return adresses.get(id).voietype;
     }
+
 
     @GET
     public int getNumberAdresse(){

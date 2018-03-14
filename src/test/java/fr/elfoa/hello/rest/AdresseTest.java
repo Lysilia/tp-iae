@@ -17,10 +17,12 @@ import static org.junit.Assert.assertEquals;
 
 public class AdresseTest extends JerseyTest {
 
+
     @Override
     protected Application configure() {
         return new ResourceConfig(Adresse.class);
     }
+
 
     @Before
     public void addAdresses(){
@@ -34,14 +36,11 @@ public class AdresseTest extends JerseyTest {
 
     @Test
     public void testGet(){
-        // getNumberAdresse
         int a = target("adresse").request().get(int.class);
         assertEquals(4,  a);
 
-        // getNum
         int num = target("adresse/num/3").request().get(int.class);
         assertEquals(5, num);
-
 
         String cp = target("adresse/cp/2").request().get(String.class);
         assertEquals("54000", cp);
@@ -77,6 +76,8 @@ public class AdresseTest extends JerseyTest {
         target("adresse/newVoieType/avenue/3").request().put(Entity.form(new Form()));
         String voietype = target("adresse/voietype/3").request().get(String.class);
         assertEquals("avenue", voietype);
+
+
     }
 
     @After
